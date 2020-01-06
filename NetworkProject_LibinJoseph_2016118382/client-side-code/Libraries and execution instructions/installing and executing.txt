@@ -1,0 +1,13 @@
+Wiring op library for raspberry pi - 
+It is installed in the raspbian os by default
+or you can install it from wiringpi.com/download-install 
+
+Libsonar library - 
+the header file and class is already included
+ 
+Compiling - 
+g++ client.cpp -o client -lwiringPi libSonar.cpp
+
+
+Execution - 
+./test <IP Address of server> <Port>
